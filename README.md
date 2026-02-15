@@ -17,7 +17,7 @@ This is a binary classification problem.
 ## Dataset Used
 
 Dataset: Bank Marketing Dataset\
-Source: Kaggle (https://www.kaggle.com/datasets/janiobachmann/bank-marketing-dataset/data)\
+Source: Kaggle(https://www.kaggle.com/datasets/janiobachmann/bank-marketing-dataset/data) \
 Total Records: 45,211\
 Features: 16 input features + 1 target variable
 
