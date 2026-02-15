@@ -1,0 +1,15 @@
+bank-full.csv
+bank.csv
+*.pyc
+__pycache__/
+.venv/
+venv/
+env/
+*.log
+.DS_Store
+.ipynb_checkpoints/
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
