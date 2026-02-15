@@ -1,8 +1,3 @@
-"""
-Bank Marketing Classification - Streamlit Web Application
-Interactive ML model deployment for prediction and evaluation
-"""
-
 import streamlit as st
 import pandas as pd
 import numpy as np
