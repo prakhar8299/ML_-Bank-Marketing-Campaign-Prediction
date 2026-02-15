@@ -1,8 +1,3 @@
-"""
-Bank Marketing Classification - Model Training and Evaluation
-This script trains 6 different classification models and evaluates them using 6 metrics
-"""
-
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
@@ -199,7 +194,7 @@ def print_results(results):
 if __name__ == "__main__":
     # Note: Download the dataset from Kaggle first
     # Dataset: Bank Marketing Data Set
-    # URL: https://www.kaggle.com/datasets/henriqueyamahata/bank-marketing
+    # URL: https://www.kaggle.com/datasets/janiobachmann/bank-marketing-dataset/data
     
     print("Loading and preprocessing data...")
     try:
@@ -240,5 +235,5 @@ if __name__ == "__main__":
     except FileNotFoundError:
         print("\nError: Dataset file 'bank-full.csv' not found!")
         print("Please download the Bank Marketing dataset from Kaggle:")
-        print("https://www.kaggle.com/datasets/henriqueyamahata/bank-marketing")
+        print("https://www.kaggle.com/datasets/janiobachmann/bank-marketing-dataset/data")
         print("Place 'bank-full.csv' in the project root directory.")
